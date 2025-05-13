@@ -13,18 +13,17 @@ const Newslettersection = () => {
               </h2>
               <p className="text-blue-100 text-base">
                 Join our newsletter to stay updated with the latest news,
-                offers, and exclusive content delivered straight to your inbox.
+                offers, and exclusive <br /> content delivered straight to your
+                inbox.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row w-full max-w-md">
+            <div className="flex w-full max-w-md items-stretch">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-grow px-5 py-3 rounded-xl sm:rounded-r-none text-sm border border-white focus:outline-none"
+                className="flex-grow h-14 px-5 rounded-l-xl text-sm border border-white focus:outline-none"
               />
-              <button
-                className="bg-white text-blue-700 font-semibold px-5 py-3 rounded-xl sm:rounded-l-none hover:bg-blue-100 transition"
-              >
+              <button className="h-14 bg-white text-blue-700 font-semibold px-5 rounded-r-xl hover:bg-blue-100 transition">
                 Subscribe
               </button>
             </div>

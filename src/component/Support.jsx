@@ -1,7 +1,7 @@
 import { FcBarChart, FcIdea, FcPhone, FcHome } from "react-icons/fc";
 const Support = () => {
   return (
-    <section className="bg-white py-16 shadow-md">
+    <section id='ourservices' className="bg-white py-16 shadow-md">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <h1 className="text-4xl font-bold text-gray-800 mb-6">

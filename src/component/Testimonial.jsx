@@ -1,4 +1,3 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -10,13 +9,13 @@ const testimonials = [
     id: 1,
     name: "Robin Ayala Doe",
     image: "https://randomuser.me/api/portraits/men/77.jpg",
-    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia",
   },
   {
     id: 2,
     name: "John De Marli",
     image: "https://randomuser.me/api/portraits/women/90.jpg",
-    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, they live in Bookmarksgrove.",
+    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia",
   },
   {
     id: 3,
@@ -46,7 +45,7 @@ const testimonials = [
 
 const Testimonialsection = () => {
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto">
+    <section id='testimonials' className="py-20 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-14">
         <h2 className="text-4xl font-bold mb-4 text-gray-800">
           What Our Happy Clients Say
@@ -67,7 +66,7 @@ const Testimonialsection = () => {
           1024: { slidesPerView: 3.5, spaceBetween: 40 },
         }}
         modules={[Pagination, Navigation]}
-        className="pb-10"
+        className="pb-20 mb-8" 
       >
         {testimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>

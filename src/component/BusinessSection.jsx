@@ -4,7 +4,7 @@ import { TbRocket } from "react-icons/tb";
 
 const BusinessSection = () => {
   return (
-    <section className="w-full bg-white py-20 px-4 sm:px-6 lg:px-8">
+    <section id='business' className="w-full bg-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-gray-900">
           How Can We Help Your Business?

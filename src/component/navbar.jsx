@@ -8,10 +8,10 @@ const Navbar = () => {
           <div className="w-4 h-4 rounded-full -ml-1 bg-red-600 hover:bg-red-500 transition-colors"></div>
         </div>
         <ul className="hidden md:flex gap-6 text-gray-700 text-sm">
-          <li><a href="#" className="hover:text-blue-600">Home</a></li>
-          <li><a href="#" className="hover:text-blue-600">About Us</a></li>
-          <li><a href="#" className="hover:text-blue-600">Our Services</a></li>
-          <li><a href="#" className="hover:text-blue-600">Testimonials</a></li>
+          <li><a href="#home" className="hover:text-blue-600">Home</a></li>
+          <li><a href="#business" className="hover:text-blue-600">About Us</a></li>
+          <li><a href="#ourservices" className="hover:text-blue-600">Our Services</a></li>
+          <li><a href="#testimonials" className="hover:text-blue-600">Testimonials</a></li>
         </ul>
         <div className="hidden md:block">
           <button className="py-2 px-4 rounded-2xl bg-blue-800 hover:bg-blue-600 text-white transition-colors">
@@ -29,10 +29,10 @@ const Navbar = () => {
       <input type="checkbox" id="menu-toggle" className="hidden peer" />
       <div className="peer-checked:block hidden md:hidden px-6 pb-4">
         <ul className="flex flex-col gap-3 text-gray-700 text-sm">
-          <li><a href="#" className="hover:text-blue-600">Home</a></li>
-          <li><a href="#" className="hover:text-blue-600">About Us</a></li>
-          <li><a href="#" className="hover:text-blue-600">Our Services</a></li>
-          <li><a href="#" className="hover:text-blue-600">Testimonials</a></li>
+          <li><a href="#home" className="hover:text-blue-600">Home</a></li>
+          <li><a href="#business" className="hover:text-blue-600">About Us</a></li>
+          <li><a href="#ourservices" className="hover:text-blue-600">Our Services</a></li>
+          <li><a href="#testimonials" className="hover:text-blue-600">Testimonials</a></li>
         </ul>
         <div className="mt-4">
           <button className="w-full py-2 px-4 rounded-2xl bg-blue-800 hover:bg-blue-600 text-white transition-colors">

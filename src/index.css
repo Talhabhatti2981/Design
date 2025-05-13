@@ -1,4 +1,7 @@
 @import "tailwindcss";
+html{
+  scroll-behavior: smooth;
+}
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -19,4 +22,7 @@
 
 .w-max {
   width: max-content;
+}
+.swiper-wrapper{
+  margin-bottom: 40px;
 }
