@@ -1,15 +1,17 @@
-import { FcSearch, FcSettings, FcMultipleDevices } from "react-icons/fc";
+import { FcSearch } from "react-icons/fc";
+import statsImg from "../assets/stats.webp"; // ✅ Correct import path
+
 const Schedule = () => {
   return (
     <section className="px-4 sm:px-6 lg:px-8 py-16 bg-gray-200">
       <div className="flex flex-col md:flex-row items-center justify-between gap-10 max-w-7xl mx-auto">
         <img
-          src="src/assets/stats.webp"
+          src={statsImg}
           alt="Stats"
           className="w-full md:w-1/2 h-auto rounded-lg hover:scale-105 transition-transform duration-300"
         />
         <div className="w-full md:w-1/2 mt-8 md:mt-0">
-            <FcSearch size={48} className="mx-auto mb-4" />
+          <FcSearch size={48} className="mx-auto mb-4" />
           <span className="text-amber-500 font-bold text-sm sm:text-base">SCHEDULE</span>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mt-2">
             Streamline Your Business With Smart Scheduling Solution
@@ -31,4 +33,4 @@ const Schedule = () => {
   );
 };
 
-export default Schedule
+export default Schedule;
